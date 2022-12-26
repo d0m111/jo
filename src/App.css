@@ -1,23 +1,43 @@
 .App {
-     text-align: center;
+     width: 100%;
+     margin: 1% 0%;
 }
+h1 {
+     width: 63%;
+     margin: 1% 2%;
+     text-align: center;
+     font-size: 7em;
+}
+
+h1:hover{
+     background-color: pink;
+}
+
+.body {
+     width: 96%;
+     /* height: 500px; */
+     /* margin: 0% 1%; */
+     margin: auto;
+     display: flex;
+     /* flex-direction: row; */
+     text-align: center;
+     column-gap: 43px;
+}
+
 
 /* HEADER */
 
 .photo-container {
      display: flex;
-     width: auto;
+     width: 261%;
      height: auto;
      margin: auto;
      /* align-items: center; */
-     justify-content: center;
+     justify-content: flex-start;
+}
+.photo-container img{
+     width: 100%;
 }
 
-@keyframes App-logo-spin {
-     from {
-          transform: rotate(0deg);
-     }
-     to {
-          transform: rotate(360deg);
-     }
-}
+
+

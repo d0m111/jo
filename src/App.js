@@ -7,10 +7,16 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Outlet />
-      {/* <Footer /> */}
-      {/* <p>hello world</p> */}
+        <h1>JOAQUIN ORTEGA</h1>
+        <div className='body'>
+          <Header />
+          <div>
+
+          <Outlet />
+          </div>
+          {/* <Footer /> */}
+          {/* <p>hello world</p> */}
+        </div>
     </div>
       
 
