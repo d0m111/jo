@@ -3,7 +3,7 @@ import fotoPortada from "../assets/gif-portada.gif";
 
 export default function Home(){
     return (
-        <div>
+        
             <div className="photo-container">
                 <img
                      src={fotoPortada}
@@ -11,6 +11,6 @@ export default function Home(){
                 />
 
             </div>
-        </div>
+        
     )
 }

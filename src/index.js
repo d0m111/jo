@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Home from './components/Home'
+import Solo from './components/solo'
+import Blast from "./components/Blast"
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -15,6 +17,14 @@ const router = createBrowserRouter([
                  path: '/',
                  element: <Home />,
             },
+            {
+                path: '/solo',
+                element: <Solo />
+            },
+            { 
+                path: '/blast',
+                element: <Blast />
+            }
        ],
   },
 ]);

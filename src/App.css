@@ -3,10 +3,10 @@
      margin: 1% 0%;
 }
 h1 {
-     width: 63%;
-     margin: 1% 2%;
-     text-align: center;
-     font-size: 7em;
+     width: 84%;
+    margin: 1% 2%;
+    /* text-align: center; */
+    font-size: 7em;
 }
 
 h1:hover{
@@ -29,11 +29,12 @@ h1:hover{
 
 .photo-container {
      display: flex;
-     width: 261%;
-     height: auto;
-     margin: auto;
-     /* align-items: center; */
-     justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* align-items: center; */
+    justify-content: flex-start;
+    flex-grow: 5;
 }
 .photo-container img{
      width: 100%;
