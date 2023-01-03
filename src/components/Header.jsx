@@ -10,9 +10,9 @@ export default function Header() {
                <nav>
                     <h2>MUSIC</h2>
                     <ul> 
-                         <li><Link to={`/solo`}>Solo</Link></li>
-                         <li><Link to={`/blast`}>BLAST</Link></li>
-                         <li><Link to={`/laGrote`}>La Grote</Link></li>
+                         <li><Link to={`/solo`} className="link title-deco">Solo</Link></li>
+                         <li><Link to={`/blast`} className="link title-deco">BLAST</Link></li>
+                         <li><Link to={`/laGrote`} className="link title-deco">La Grote</Link></li>
                          {/* <li>La Grote</li> */}
                     </ul>
                     <h2>DANCE</h2>
@@ -25,7 +25,14 @@ export default function Header() {
                          <li>qsdqsdq</li>
                          <li>lkjhgqsd</li>
                     </ul>
+                    
                </nav>
+               <div className="socials">
+               
+                         <i class="fa-brands fa-facebook"></i>
+                         <i class="fa-brands fa-bandcamp"></i>
+                         <i class="fa-brands fa-soundcloud"></i>
+                    </div>
           </div>
      );
 }

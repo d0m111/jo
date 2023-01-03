@@ -7,7 +7,10 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-        <h1><Link to={`/`}>JOAQUIN ORTEGA</Link></h1>
+        <h1><Link to={`/`} className="link title-deco">JOAQUIN ORTEGA</Link></h1>
+        {/* <div>
+            <h1 ><Link to={`/`} className="link title-deco">JOAQUIN ORTEGA</Link></h1>
+        </div> */}
         <div className='body'>
           <Header />
           

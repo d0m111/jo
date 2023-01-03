@@ -20,6 +20,10 @@ ul li {
 }
 
 ul li:hover {
-    background-color: pink;
-    /* color: rgb(255, 5, 5); */
+    font-weight: 600;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
 }
