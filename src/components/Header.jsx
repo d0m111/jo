@@ -29,10 +29,10 @@ export default function Header() {
                </nav>
                <div className="socials">
                
-                         <i class="fa-brands fa-facebook"></i>
-                         <i class="fa-brands fa-bandcamp"></i>
-                         <i class="fa-brands fa-soundcloud"></i>
-                    </div>
+               <i class="fa fa-car"></i>
+               <i class="fa-brands fa-facebook"></i>
+                        
+               </div>
           </div>
      );
 }
