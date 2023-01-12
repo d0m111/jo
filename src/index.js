@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Home from './components/Home'
-import Solo from './components/solo'
-import Blast from "./components/Blast"
+import Home from './components/Home';
+import Solo from './components/solo';
+import Blast from "./components/Blast";
+import Grotte from "./components/LaGrotte";
+import Mimosa from './components/Mimosa';
+import Corallo from './components/Corallo';
+import Bio from './components/Bio';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -24,6 +28,22 @@ const router = createBrowserRouter([
             { 
                 path: '/blast',
                 element: <Blast />
+            },
+            { 
+              path: '/laGrotte',
+              element: <Grotte />
+            },
+            {
+              path: '/compagnieMimosa',
+              element: <Mimosa />
+            },
+            {
+              path: '/collectiveISRAW',
+              element: <Corallo />
+            },
+            {
+              path: '/Bio',
+              element: <Bio />
             }
        ],
   },

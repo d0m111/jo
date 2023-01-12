@@ -1,5 +1,5 @@
 import React from "react";
-import fotoPortada from "../assets/gif-portada.gif";
+import fotoPortada from "../assets/jo-gif-final.gif";
 
 export default function Home(){
     return (
@@ -9,7 +9,6 @@ export default function Home(){
                      src={fotoPortada}
                      alt="Joaquin Ortega, guitar, portrait"
                 />
-
             </div>
         
     )
