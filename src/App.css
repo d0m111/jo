@@ -96,14 +96,14 @@ h1 {
 }
 
 .component-title-wrapper h3{
-     margin: 0;
+     margin: 0% 0% 1% 0%;
      font-size: 33px;
      font-weight: 200;
      text-transform: capitalize;
  }
  
  .component-title-wrapper p {
-     margin: 0.5% 0%;
+     margin: 0%;
      font-weight: 400;
      font-size: medium;
      text-transform: capitalize;
@@ -122,7 +122,7 @@ h1 {
  }
  .component-content-wrapper p {
      width: 100%;
-     text-align: start;
+     text-align: justify;
      line-height: 23px;
      font-weight: 200;
      font-size: larger;
@@ -139,16 +139,16 @@ h1 {
  }
 
  .bio-wrapper img{
-     width: 35%;
+     width: 40%;
      margin: 0;
  }
 
  .bio-wrapper p{
-     width: 65%;
+     width: 60%;
      margin: 0;
      padding: 0% 3%;
-     font-size: 2.5em;
+     font-size: 2em;
      font-weight: 300;
-     line-height: 43px;
+     line-height: 33.314569px;
      text-align: justify;
  }
