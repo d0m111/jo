@@ -30,7 +30,7 @@
 }
 .solo-content-wrapper p {
     width: 100%;
-    text-align: start;
+    text-align: justify;
     line-height: 23px;
     font-weight: 200;
     font-size: larger;
@@ -47,14 +47,22 @@
     height: 100%;
     flex-wrap: wrap;
 }
+
+.iframe-wrapper img{
+    margin-top: 1%;
+    width: 64%;
+}
+
 .solo-yt-iframe{
-    width: 50%;
+    margin-top: 1%;
+    width: 64%;
     height: 512px;
 }
 
 .bandCamp-iframe{
-    width: 50%;
+    width: 100%;
     /* height: 43.4em; */
+    height: 42px;
     border: 0;
     /* background-color: black;*/
 }

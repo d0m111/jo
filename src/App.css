@@ -8,6 +8,10 @@ h1 {
     font-size: 7em; 
 }
 
+article{
+     width: 100%;
+}
+
 .title-deco:hover{
      color: transparent;
      font-size: 1em;
@@ -17,13 +21,6 @@ h1 {
      -webkit-background-clip: text; 
 }
 
-/* h1:hover{
-     color: transparent;
-     background-size: 500%;
-     background: url(https://thumbs.gfycat.com/ShorttermEasyFerret-size_restricted.gif);
-     background-clip: text;
-     -webkit-background-clip: text; 
-} */
 
 .link{
      color: black;
@@ -43,6 +40,13 @@ h1 {
 
 
 /* HEADER */
+
+.header-container{
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+
+}
 
 .header-titles{
      font-size: xx-large;
@@ -71,7 +75,7 @@ h1 {
 .photo-container p{
      width: 100%;
      /* margin: auto; */
-     padding: 0% 3%;
+     padding: 0% 1%;
      position: relative;
      top: -70%;
      /* left: -50%; */
@@ -97,7 +101,7 @@ h1 {
 
 .component-title-wrapper h3{
      margin: 0% 0% 1% 0%;
-     font-size: 33px;
+     font-size: 50px;
      font-weight: 200;
      text-transform: capitalize;
  }
@@ -120,14 +124,62 @@ h1 {
     /* align-content: center; */
     /* align-items: center;*/
  }
+
+ .component-content-wrapper img{
+     margin-top: 1%;
+     width: 50%;
+ }
+
+
  .component-content-wrapper p {
      width: 100%;
-     text-align: justify;
-     line-height: 23px;
-     font-weight: 200;
-     font-size: larger;
+    margin: 2% 0% 0% 0%;
+    text-align: justify;
+    line-height: 23px;
+    font-weight: 200;
+    font-size: larger;
+    width: 100%;
+    height: 0%;
      /* order: 2; */
  }
+
+/* LATERE */
+
+.mimosa-content-wrapper{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+
+
+.mimosa-content-wrapper p{
+     width: 100%;
+    text-align: justify;
+    line-height: 23px;
+    font-weight: 200;
+    font-size: larger;
+}
+.latere-footer{
+     margin: 1% 0% 0% 0%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     flex-wrap: nowrap;
+     width: 100%;
+}
+
+.footer-photo-container{
+     width: 50%;
+     height: 120px;
+}
+
+.footer-photo-container img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     object-position: top;
+}
 
  /* BIO */
 
@@ -139,6 +191,7 @@ h1 {
  }
 
  .bio-wrapper img{
+     object-fit: cover;
      width: 40%;
      margin: 0;
  }
@@ -152,3 +205,48 @@ h1 {
      line-height: 33.314569px;
      text-align: justify;
  }
+ /* EVENTS */
+
+ .events-container{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+ }
+
+ .events-container p{
+     /* width: 100%; */
+     margin: 0% 1% 1% 0%;
+     /* padding: 0% 3%; */
+     font-size: 2em;
+     font-weight: 300;
+     line-height: 33.314569px;
+     text-align: justify;
+ }
+
+
+ .events-container p:last-child{
+     margin-left: auto;
+}
+
+/* FOOTER */
+
+.footer-container{
+     display: flex;
+     flex-direction: column;
+     margin-top: 43%;
+}
+.footer-container a{
+     /* width: 100%;
+     height: 100%;
+     margin: auto; */
+    font-size: 17px;
+    font-weight: 400;
+    color: transparent;
+    background-size: 1%;
+    /* background: url(https://38.media.tumblr.com/c2c75650f1f00f8a97187c694f5ae21c/tumblr_nofu921NJm1rzm9jxo1_540.gif); */
+    background: url(https://37.media.tumblr.com/dc680f60a53d78d9b35998e57b3f801e/tumblr_n9tgn6hZar1t029v6o1_400.gif) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

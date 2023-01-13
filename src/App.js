@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-// import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
 
           <Outlet />
           
-          {/* <Footer /> */}
+          
           {/* <p>hello world</p> */}
         </div>
     </div>

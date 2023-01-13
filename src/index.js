@@ -10,6 +10,7 @@ import Grotte from "./components/LaGrotte";
 import Mimosa from './components/Mimosa';
 import Corallo from './components/Corallo';
 import Bio from './components/Bio';
+import Events from './components/Events';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
               element: <Grotte />
             },
             {
-              path: '/compagnieMimosa',
+              path: '/latere',
               element: <Mimosa />
             },
             {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
             {
               path: '/Bio',
               element: <Bio />
+            },
+            {
+              path: '/events',
+              element: <Events />
             }
        ],
   },

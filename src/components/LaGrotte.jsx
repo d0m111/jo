@@ -1,5 +1,7 @@
 import React from "react";
 import "../App.css"
+import laGrottePhoto from "../assets/laGrotte.jpg"
+import "../styles/solo.css"
 
 export default function LaGrotte(){
     return(
@@ -9,17 +11,24 @@ export default function LaGrotte(){
                 <p>Rémy Gouffault: drums/electronics</p>
                 <p>Joaquin Ortega: guitar/electronics</p>
             </div>
-            {/* <div className="solo-content-wrapper">
-                <p>The solo invites us to immerse ourselves in a deep listening, constantly nourishing the search for an interaction of sound objects in space.
-                Tremors, resonances or vibrations create a world in perpetual mutation, in a game of discontinuity/continuity. </p>
-                
+            <div className="solo-content-wrapper">
+                <p>La Grotte reveals a deep research on textures and space in sound.
+                    The duo mixes acoustic and electronic timbres, between electric
+                    guitar, electronic devices, drums, objects and synthesizers.
+                    In March 2022, La Grotte released its first EP of five original tracks
+                    that illustrates an imaginary speleological journey, revealing the
+                    deep and inner aspect of this music and they have performed in
+                    Berlin, Leipzig, Paris and Toulouse among others.
+                </p>
+                <iframe className="bandCamp-iframe" title="band camp player" src="https://bandcamp.com/EmbeddedPlayer/album=4153160252/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://joaquinortega.bandcamp.com/album/la-grotte">La grotte by La Grotte</a></iframe>
+                {/* <img src="https://f4.bcbits.com/img/a3552457219_16.jpg" alt="coverFront of the album Le Grandes Maisons by Joaquin Ortega"></img> */}
                 
                 <div className="iframe-wrapper">
-                    <iframe className="solo-yt-iframe" src="https://www.youtube.com/embed/gooL4YT5luI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe className="bandCamp-iframe" title="band camp player" src="https://bandcamp.com/EmbeddedPlayer/album=2720788301/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://joaquinortega.bandcamp.com/album/les-grandes-maisons">Les grandes maisons by Joaquin Ortega</a></iframe>
+                    <img src={laGrottePhoto} alt="la grotte duo press"/>
                 </div>
                 
-            </div> */}
+            </div>
+
         </article>
     )
 }
