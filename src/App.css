@@ -250,3 +250,16 @@ article{
     background-clip: text;
     -webkit-background-clip: text;
 }
+
+.foo-logo-container{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     justify-content: flex-start;
+     column-gap: 1%;
+}
+
+.logo-resized{
+     width: 33.314159265359px;
+     /* font-size: 10px; */
+}
