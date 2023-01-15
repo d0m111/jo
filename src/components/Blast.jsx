@@ -6,7 +6,7 @@ export default function Blast(){
         <article>
             <div className="component-title-wrapper">
                 <h3>BLAST</h3>
-                <p>Francisco Uberto: drums/electronics</p>
+                <p>Francisco Uberto: electronics</p>
                 <p>Joaquin Ortega: guitar/electronics</p>
             </div>
 
