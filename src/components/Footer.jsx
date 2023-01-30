@@ -16,7 +16,7 @@ export default function Footer(){
                 <a href="https://www.instagram.com/joaquinalvor/" className="link"><img className="logo-resized" src={igLogo} alt="instagram of Joaquin Ortega"/></a>
             </div>
             {/* <span>{bandCampLogo}</span> */}
-            <a href="mailto:joaquin.er.ortega@gmail.com" className="link">joaquin.er.ortega@gmail.com</a>
+            <a href="mailto:contact@joaquinortega.eu" className="link">contact@joaquinortega.eu</a>
         </div>
     )
 }
